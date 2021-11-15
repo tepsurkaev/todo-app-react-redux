@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif, Tahoma;
+}
+#title {
+  font-size: 40px;
+  color: teal;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-top: 20px;
+}
+#todo {
+  width: 600px;
+  margin: 20px auto 50px auto;
+}

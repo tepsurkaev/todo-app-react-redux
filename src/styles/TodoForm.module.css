@@ -1,0 +1,13 @@
+.todoInput {
+  width: 100%;
+  padding: 15px 50px;
+  font-size: 18px;
+  outline: 0;
+  border: 2px solid teal;
+  color: teal;
+}
+.todoInput::placeholder {
+  color: teal;
+  font-size: 18px;
+  letter-spacing: 1px;
+}

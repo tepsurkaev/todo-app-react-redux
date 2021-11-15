@@ -1,0 +1,62 @@
+.todo {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 2px solid teal;
+  border-left: 2px solid teal;
+  border-right: 2px solid teal;
+  padding: 25px 50px;
+  position: relative;
+}
+/* Styles for completed checkbox */
+.completedCheckbox {
+  padding: 13px;
+  background: transparent;
+  border: 2px solid teal;
+  border-radius: 50px;
+  left: 10px;
+  position: absolute;
+}
+/* Styles for uncompleted checkbox */
+.uncompletedCheckbox {
+  padding: 13px;
+  background: transparent;
+  border: 2px solid teal;
+  border-radius: 50px;
+  left: 10px;
+  position: absolute;
+  opacity: 0.2;
+  transition: opacity 0.2s ease-in-out;
+}
+.uncompletedCheckbox:hover {
+  opacity: 1;
+}
+.checkboxIcon {
+  color: teal;
+  font-size: 16px;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+/* Styles for uncompleted todos titles */
+.uncompletedTitle {
+  color: teal;
+  font-size: 18px;
+  position: absolute;
+}
+/* Styles for completed todos titles */
+.completedTitle {
+  color: #aaa;
+  font-size: 18px;
+  position: absolute;
+  text-decoration: line-through;
+}
+.removeTodo {
+  background: transparent;
+  outline: 0;
+  border: 0;
+  color: #cc9a9a;
+  font-size: 20px;
+  position: absolute;
+  left: 560px;
+}
