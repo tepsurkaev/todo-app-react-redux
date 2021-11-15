@@ -12,8 +12,8 @@ function App() {
     <>
       <p id="title">To-Do</p>
       <div id="todo">
+        <TodoForm />
         <Router>
-          <TodoForm />
           <Routes>
             <Route path="/" element={<AllTodos />} />
             <Route path="/all" element={<AllTodos />} />
